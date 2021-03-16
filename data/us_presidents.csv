@@ -1,0 +1,47 @@
+number,name,wiki_url,start,end,party,state
+1,George Washington,https://en.wikipedia.org/wiki/George_Washington,30/04/1789,4/03/1797,Independent,Virginia
+2,John Adams,https://en.wikipedia.org/wiki/John_Adams,4/03/1797,4/03/1801,Federalist,Massachusetts
+3,Thomas Jefferson,https://en.wikipedia.org/wiki/Thomas_Jefferson,4/03/1801,4/03/1809,Democratic-Republican,Virginia
+4,James Madison,https://en.wikipedia.org/wiki/James_Madison,4/03/1809,4/03/1817,Democratic-Republican,Virginia
+5,James Monroe,https://en.wikipedia.org/wiki/James_Monroe,4/03/1817,4/03/1825,Democratic-Republican,Virginia
+6,John Quincy Adams,https://en.wikipedia.org/wiki/John_Quincy_Adams,4/03/1825,4/03/1829,Democratic-Republican/National Republican,Massachusetts
+7,Andrew Jackson,https://en.wikipedia.org/wiki/Andrew_Jackson,4/03/1829,4/03/1837,Democratic,Tennessee
+8,Martin Van Buren,https://en.wikipedia.org/wiki/Martin_Van_Buren,4/03/1837,4/03/1841,Democratic,New York
+9,William Henry Harrison,https://en.wikipedia.org/wiki/William_Henry_Harrison,4/03/1841,4/04/1841,Whig,Ohio
+10,John Tyler,https://en.wikipedia.org/wiki/John_Tyler,4/04/1841,4/03/1845,Whig,Virginia
+11,James K. Polk,https://en.wikipedia.org/wiki/James_K._Polk,4/03/1845,4/03/1849,Democratic,Tennessee
+12,Zachary Taylor,https://en.wikipedia.org/wiki/Zachary_Taylor,4/03/1849,9/07/1850,Whig,Louisiana
+13,Millard Fillmore,https://en.wikipedia.org/wiki/Millard_Fillmore,9/07/1850,4/03/1853,Whig,New York
+14,Franklin Pierce,https://en.wikipedia.org/wiki/Franklin_Pierce,4/03/1853,4/03/1857,Democratic,New Hampshire
+15,James Buchanan,https://en.wikipedia.org/wiki/James_Buchanan,4/03/1857,4/03/1861,Democratic,Pennsylvania
+16,Abraham Lincoln,https://en.wikipedia.org/wiki/Abraham_Lincoln,4/03/1861,15/04/1865,Republican/National Union,Illinois
+17,Andrew Johnson,https://en.wikipedia.org/wiki/Andrew_Johnson,15/04/1865,4/03/1869,Democratic/National Union,Tennessee
+18,Ulysses S. Grant,https://en.wikipedia.org/wiki/Ulysses_S._Grant,4/03/1869,4/03/1877,Republican,Ohio
+19,Rutherford B. Hayes,https://en.wikipedia.org/wiki/Rutherford_B._Hayes,4/03/1877,4/03/1881,Republican,Ohio
+20,James A. Garfield,https://en.wikipedia.org/wiki/James_A._Garfield,4/03/1881,19/09/1881,Republican,Ohio
+21,Chester A. Arthur,https://en.wikipedia.org/wiki/Chester_A._Arthur,19/09/1881,4/03/1885,Republican,New York
+22,Grover Cleveland,https://en.wikipedia.org/wiki/Grover_Cleveland,4/03/1885,4/03/1889,Democratic,New York
+23,Benjamin Harrison,https://en.wikipedia.org/wiki/Benjamin_Harrison,4/03/1889,4/03/1893,Republican,Indiana
+24,Grover Cleveland (2nd term),https://en.wikipedia.org/wiki/Grover_Cleveland,4/03/1893,4/03/1897,Democratic,New York
+25,William McKinley,https://en.wikipedia.org/wiki/William_McKinley,4/03/1897,14/09/1901,Republican,Ohio
+26,Theodore Roosevelt,https://en.wikipedia.org/wiki/Theodore_Roosevelt,14/09/1901,04/03/1909,Republican,New York
+27,William Howard Taft,https://en.wikipedia.org/wiki/William_Howard_Taft,04/03/1909,04/03/1913,Republican,Ohio
+28,Woodrow Wilson,https://en.wikipedia.org/wiki/Woodrow_Wilson,04/03/1913,04/03/1921,Democratic,New Jersey
+29,Warren G. Harding,https://en.wikipedia.org/wiki/Warren_G._Harding,04/03/1921,02/08/1923,Republican,Ohio
+30,Calvin Coolidge,https://en.wikipedia.org/wiki/Calvin_Coolidge,02/08/1923,04/03/1929,Republican,Massachusetts
+31,Herbert Hoover,https://en.wikipedia.org/wiki/Herbert_Hoover,04/03/1929,04/03/1933,Republican,Iowa
+32,Franklin D. Roosevelt,https://en.wikipedia.org/wiki/Franklin_D._Roosevelt,04/03/1933,12/04/1945,Democratic,New York
+33,Harry S. Truman,https://en.wikipedia.org/wiki/Harry_S._Truman,12/04/1945,20/01/1953,Democratic,Missouri
+34,Dwight D. Eisenhower,https://en.wikipedia.org/wiki/Dwight_D._Eisenhower,20/01/1953,20/01/1961,Republican,Texas
+35,John F. Kennedy,https://en.wikipedia.org/wiki/John_F._Kennedy,20/01/1961,22/11/1963,Democratic,Massachusetts
+36,Lyndon B. Johnson,https://en.wikipedia.org/wiki/Lyndon_B._Johnson,22/11/1963,20/01/1969,Democratic,Texas
+37,Richard Nixon,https://en.wikipedia.org/wiki/Richard_Nixon,20/01/1969,09/08/1974,Republican,California
+38,Gerald Ford,https://en.wikipedia.org/wiki/Gerald_Ford,09/08/1974,20/01/1977,Republican,Michigan
+39,Jimmy Carter,https://en.wikipedia.org/wiki/Jimmy_Carter,20/01/1977,20/01/1981,Democratic,Georgia
+40,Ronald Reagan,https://en.wikipedia.org/wiki/Ronald_Reagan,20/01/1981,20/01/1989,Republican,California
+41,George H. W. Bush,https://en.wikipedia.org/wiki/George_H._W._Bush,20/01/1989,20/01/1993,Republican,Texas
+42,Bill Clinton,https://en.wikipedia.org/wiki/Bill_Clinton,20/01/1993,20/01/2001,Democratic,Arkansas
+43,George W. Bush,https://en.wikipedia.org/wiki/George_W._Bush,20/01/2001,20/01/2009,Republican,Texas
+44,Barack Obama,https://en.wikipedia.org/wiki/Barack_Obama,20/01/2009,20/01/2017,Democratic,Illinois
+45,Donald J. Trump,https://en.wikipedia.org/wiki/Donald_Trump,20/01/2017,20/01/2021,Republican,New York
+46,Joe Biden,https://en.wikipedia.org/wiki/Joe_Biden,20/01/2021,Incumbent,Democratic,Delaware
