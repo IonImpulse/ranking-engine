@@ -11,7 +11,7 @@ number-flag {
 #top {
     font-family: 'JetBrains Mono', monospace;
     background-color: #27292e;
-    font-size: 2vmax;
+    font-size: 3vmax;
     color: white;
     text-align: center;
     max-width: 50%;
@@ -54,7 +54,7 @@ number-flag {
     margin-top: 1%;
 }
 
-.pres-pic {
+.ranked-pic {
     width: 15vmax;
     object-fit: contain;
     margin-bottom: 1vmax;

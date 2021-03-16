@@ -12,7 +12,7 @@ async function GetPortrait(ranked_wiki_url) {
 
 async function LoadData(csv_name) {
     return new Promise((resolve, reject) => {
-        Papa.parse(`https://raw.githubusercontent.com/IonImpulse/ranking-engine/main/data/${csv_name}.csv`, {
+        Papa.parse(`https://raw.githubusercontent.com/IonImpulse/ranking-engine/main/data/${csv_name}`, {
             download: true,
             dynamicTyping: true,
             worker: true,
@@ -183,7 +183,7 @@ async function setup() {
     let question_elem = document.getElementById("question");
 
     if (document.location.href.includes("?file=")) {
-        const urlParams = new URLSearchParams(document.location.href);
+        const urlParams = new URLSearchParams(window.location.search);
         
         question_elem.innerHTML = "Loading...";
 
@@ -194,6 +194,12 @@ async function setup() {
         question_elem.style.cursor = "pointer";
 
         choices_elem.innerHTML = "";
+
+        console.log(urlParams.get('file'));
+        console.log(urlParams.get('code'));
+        const ranked_data = await LoadData(urlParams.get('file'));
+        const urls = await LoadWikiURLS(ranked_data);
+        const ranked_list = urlParams.get('code').split(" ");
 
         for (i in ranked_list.reverse()) {
             let ranked_index = parseInt(ranked_list[i]);
@@ -210,6 +216,7 @@ async function setup() {
 
     } else {
         for ([key, value] of Object.entries(CSV_FILE_LINK)) {
+            console.log(key,value);
             choices_elem.innerHTML += `<div class="good-button" id="left-button" onclick="start('${value}')">${key}</div>\n`;
         }
     }
@@ -220,6 +227,7 @@ async function setup() {
 async function start(csv_file) {
     document.getElementById("choices-holder").innerHTML = `<div class="good-button" id="left-button" onclick="selected('left')">LOADING...</div>
     <div class="good-button" id="right-button" onclick="selected('right')">LOADING...</div>`;
+    document.getElementById("question").innerHTML = "Which one?";
 
     sessionStorage.setItem("csv_file", csv_file);
 
@@ -229,7 +237,7 @@ async function start(csv_file) {
     console.log("Loading data...");
 
     const ranked_data = await LoadData(csv_file);
-    const urls = await LoadrankedURLS(ranked_data);
+    const urls = await LoadWikiURLS(ranked_data);
     sessionStorage.setItem("ranked_data", JSON.stringify(ranked_data));
     
     let sort_keys = [];
