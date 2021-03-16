@@ -200,7 +200,7 @@ async function setup() {
         const ranked_data = await LoadData(urlParams.get('file'));
         const urls = await LoadWikiURLS(ranked_data);
         const ranked_list = urlParams.get('code').split(" ");
-
+        sessionStorage.setItem("ranked_data", JSON.stringify(ranked_data));
         for (i in ranked_list.reverse()) {
             let ranked_index = parseInt(ranked_list[i]);
             choices_elem.innerHTML += `\n<div id="ranked-num-${ranked_index}" class="good-button">\b<img class="ranked-pic" src="${urls[ranked_index]}"/>\n${i - -1}) ${ranked_data[ranked_index].name}</div>\n`;
