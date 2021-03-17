@@ -7,7 +7,13 @@ async function GetPortrait(ranked_wiki_url) {
 
     const wiki_json = await response.json();
 
-    return wiki_json.query.pages[0].thumbnail.source;
+    if (wiki_json.query.pages[0] !== undefined) {
+        if (wiki_json.query.pages[0].thumbnail !== undefined) {
+            return wiki_json.query.pages[0].thumbnail.source;
+        }
+    }
+    
+    return "";
 }
 
 async function LoadData(csv_name) {
