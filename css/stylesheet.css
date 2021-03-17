@@ -110,14 +110,14 @@ number-flag {
     /*Button Color & Border*/
     border: .2vmax solid #ffffff ;
     color: #ffffff;
-    background: #390047;
+    background: #178017;
     outline: none;
     /*Position, Display, Size*/
     position: relative;
     display: inline-block;
     padding: 1vmax .75vmax 1vmax;
     width: auto;
-    box-shadow: .5vmax .5vmax #390047;
+    box-shadow: .5vmax .5vmax #178017;
 }
 
 #question-holder {
