@@ -176,6 +176,7 @@ function CopyToClipboard() {
 async function setup() {
     const CSV_FILE_LINK = {
         "Dictators": "dictators.csv",
+        "Largest Empires": "empires.csv",
         "US Presidents": "us_presidents.csv",
     };
 
